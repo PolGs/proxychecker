@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proxy Checker</title>
+    <style>
+        /* CSS for gradient background */
+        body {
+            background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+            background-size: cover;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* CSS for custom font */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        /* CSS for form styling */
+        form {
+            padding: 50px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            margin: auto;
+            width: 50%;
+            text-align: center;
+        }
+
+        /* CSS for form input */
+        textarea {
+            width: 80%;
+            height: 300px;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1.2rem;
+            outline: none;
+        }
+
+        /* CSS for submit button */
+        input[type='submit'] {
+            background-color: #ff7e5f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        /* CSS for submit button hover */
+        input[type='submit']:hover {
+            background-color: #feb47b;
+        }
+
+        /* CSS for heading */
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Proxy Checker</h1>
+    <form method="post" action="/">
+        <label for="proxy_list">Paste your proxy list here:</label>
+        <textarea name="proxy_list" id="proxy_list"></textarea>
+        <input type="submit" value="Check Proxies">
+    </form>
+</body>
+</html>

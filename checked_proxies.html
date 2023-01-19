@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checked Proxies</title>
+    <style>
+        /* CSS for gradient background */
+        body {
+            background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+            background-size: cover;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* CSS for custom font */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        /* CSS for table */
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        /* CSS for table head */
+        th {
+            background-color: #ff7e5f;
+            color: white;
+            font-size: 1.2rem;
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* CSS for table data */
+        td {
+            padding: 10px;
+            font-size: 1.2rem;
+            text-align: left;
+        }
+
+        /* CSS for table data - valid */
+        td.valid {
+            color: green;
+        }
+
+        /* CSS for table data - invalid */
+        td.invalid {
+            color: red;
+        }
+
+        /* CSS for heading */
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checked Proxies</h1>
+    <table>
+        <tr>
+            <th>Proxy</th>
+            <th>Status</th>
+        </tr>
+        {checked_proxies}
+    </table>
+</body>
+</html>
