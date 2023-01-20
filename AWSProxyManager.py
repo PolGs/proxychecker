@@ -24,7 +24,7 @@ with open("proxies.txt", "w") as file:
         for instance in reservation['Instances']:
             outs = str(instance.get('PublicIpAddress'))
             if outs != "None":
-                outs += ":8888:homejohn:AphOFtsBAnAD\n"
+                outs += ":PORT:USER:PASS\n"
                 print(colored(outs, "blue"))
                 file.write(outs)
 # close the file
