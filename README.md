@@ -16,6 +16,7 @@ The script uses the termcolor library to add color to the output text for better
 Note: You need to replace the aws_access_key_id and aws_secret_access_key with your own keys.
 
 # Under Development
+### file proxichecker2.py and htmls
 A web interface is currently under development to make the use of this script more user-friendly and easily accessible. The web interface will allow users to perform all the functionalities of this script through a web browser, without the need to run the script locally. The web interface will also include additional features such as the ability to save and manage multiple lists of proxies, and to customize the test site.
 
 
@@ -25,5 +26,5 @@ This is a web application that allows users to check a list of proxies for their
 ![image](https://user-images.githubusercontent.com/19478700/213341350-a57a1685-2ff3-4e87-9bd7-21ed3c4c5dc8.png)
 ![image](https://user-images.githubusercontent.com/19478700/213341373-5aed4450-e6f2-4db0-8d03-6812f30600b3.png)
 
-# proxychecker_wm.py
+### testproxyscript_wms.py
 Tests all proxies in file proxies.txt (same directory)
