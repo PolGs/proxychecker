@@ -25,3 +25,5 @@ This is a web application that allows users to check a list of proxies for their
 ![image](https://user-images.githubusercontent.com/19478700/213341350-a57a1685-2ff3-4e87-9bd7-21ed3c4c5dc8.png)
 ![image](https://user-images.githubusercontent.com/19478700/213341373-5aed4450-e6f2-4db0-8d03-6812f30600b3.png)
 
+# proxychecker_wm.py
+Tests all proxies in file proxies.txt (same directory)
